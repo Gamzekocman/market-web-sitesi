@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Fırsat Ürünleri</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    margin:0;
+    background:#ededed;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* GRID */
+.zx-layout-field{
+    max-width:1200px;
+    margin:30px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(240px,1fr));
+    gap:24px;
+    padding:14px;
+}
+
+/* KART */
+.zx-box-unit{
+    background:#fff;
+    border-radius:14px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+    overflow:hidden;
+    transition:0.25s;
+    display:flex;
+    flex-direction:column;
+}
+
+.zx-box-unit:hover{
+    transform:translateY(-6px);
+}
+
+/* RESİM ALANI */
+.zx-visual-slot{
+    height:200px;
+    background:#f7f7f7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+}
+
+/* RESİM */
+.zx-visual-slot img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;   /* EN KRİTİK SATIR */
+}
+
+/* METİN */
+.zx-meta-panel{
+    padding:14px;
+    text-align:center;
+    flex-grow:1;
+}
+
+.zx-meta-panel h5{
+    font-size:16px;
+    margin:8px 0;
+}
+
+/* FİYAT */
+.zx-before-tag{
+    font-size:13px;
+    color:#777;
+    text-decoration:line-through;
+}
+
+.zx-after-tag{
+    font-size:20px;
+    font-weight:bold;
+    color:#b90000;
+}
+</style>
+</head>
+
+<body>
+    <div id="sabit">
+        <div id="header">
+           <ul id="list">
+                <li>Hakkımızda</li>
+                <li>ZİP'de Kariyer</li>
+                <li>Yatırımcı ilişkileri</li>
+                <li>S.S.S</li>
+           </ul>
+        <div id="head2">
+            <a href=" https://www.instagram.com/">
+                <img src="picture/instagram.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/?locale=tr_TR">
+                <img src="picture/facebook.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="picture/youtube.png" alt="">
+            </a>
+            <a href="https://www.tiktok.com/tr-TR/">
+                <img src="picture/tik-tok.png" alt="">
+            </a>
+        </div>
+        </div>
+        <div id="banner">
+            <a href="index.html">
+                <img id="logom" src="picture/logo.png" alt="">
+            </a>
+            <ul id="list2">
+                <li>
+                    <a href="urun.html" class="img-card">
+                        <img src="picture/urun.png" alt="">
+                        <span class="title">Ürünler</span>
+                    </a>
+                </li>
+                <li>
+                     <a href="zipozel.html" class="img-card">
+                        <img src="picture/urun2.png" alt="">
+                        <span class="title">ZİP'e Özel</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="aktuel.html" class="img-card">
+                        <img src="picture/poster.png" alt="">
+                        <span class="title">Afişler</span>
+                    </a>
+                    <ul>
+                        <li><a href="aktuel.html">Aktüel</a></li>
+                        <li><a href="indirimafis.html">İndirim</a></li>
+                        <li><a href="fırsaturun.html">Fırsat Ürünleri</a></li>
+                        <li><a href="evteslim.html">Eve Teslim</a></li>
+                    </ul>
+                </li>
+                <li>
+                      <a href="tarif.html" class="img-card">
+                        <img src="picture/recipe-book.png" alt="">
+                        <span class="title">Tarifler</span>
+                    </a>
+                </li>
+                <li>
+                      <a href="magza.html" class="img-card">
+                        <img src="picture/store.png" alt="">
+                        <span class="title">Mağazalar</span>
+                    </a>
+                </li>
+                <li>  
+                    <a href="musterif.html" class="img-card">
+                        <img src="picture/team-support.png" alt="">
+                        <span class="title">İletişim</span>
+                    </a>
+                     <ul>
+                        <li><a href="musterif.html">Müşteri İletişim Formu</a></li>
+                        <li><a href="kiralikyer.html">Kiralık Yeriniz mi Var?</a></li>
+                        <li><a href="isbasvuruf.html">İş Başvuru Formu</a></li>
+                        <li><a href="tedarik.html">Tedarikççiniz Olmak istiyorum</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+<h2 style="text-align: center;">FIRSAT ÜRÜNLERİ </h2>
+<div class="zx-layout-field">
+
+    <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu1.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Ayçiçek Yağı 5L</h5>
+            <div class="zx-before-tag">349 ₺</div>
+            <div class="zx-after-tag">299 ₺</div>
+        </div>
+    </div>
+
+    <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu2.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Pirinç 2.5 KG</h5>
+            <div class="zx-before-tag">129 ₺</div>
+            <div class="zx-after-tag">99 ₺</div>
+        </div>
+    </div>
+
+    <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu3.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Bulaşık Deterjanı</h5>
+            <div class="zx-before-tag">79 ₺</div>
+            <div class="zx-after-tag">59 ₺</div>
+        </div>
+    </div>
+
+    <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu4.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Kablosuz Kulaklık</h5>
+            <div class="zx-before-tag">499 ₺</div>
+            <div class="zx-after-tag">349 ₺</div>
+        </div>
+    </div>
+     <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu5.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Kablosuz Kulaklık</h5>
+            <div class="zx-before-tag">499 ₺</div>
+            <div class="zx-after-tag">349 ₺</div>
+        </div>
+    </div>
+     <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu6.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Kablosuz Kulaklık</h5>
+            <div class="zx-before-tag">499 ₺</div>
+            <div class="zx-after-tag">349 ₺</div>
+        </div>
+    </div>
+     <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu7.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Kablosuz Kulaklık</h5>
+            <div class="zx-before-tag">499 ₺</div>
+            <div class="zx-after-tag">349 ₺</div>
+        </div>
+    </div>
+     <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu8.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Kablosuz Kulaklık</h5>
+            <div class="zx-before-tag">499 ₺</div>
+            <div class="zx-after-tag">349 ₺</div>
+        </div>
+    </div>
+     <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu9.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Kablosuz Kulaklık</h5>
+            <div class="zx-before-tag">499 ₺</div>
+            <div class="zx-after-tag">349 ₺</div>
+        </div>
+    </div>
+     <div class="zx-box-unit">
+        <div class="zx-visual-slot">
+            <img src="picture/fu10.jpg">
+        </div>
+        <div class="zx-meta-panel">
+            <h5>Kablosuz Kulaklık</h5>
+            <div class="zx-before-tag">499 ₺</div>
+            <div class="zx-after-tag">349 ₺</div>
+        </div>
+    </div>
+
+</div>
+<!--footer kısmı-->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Hakkımızda</h3>
+            <p>Marketimiz kaliteli ürünleri uygun fiyatlarla sunar. Müşteri memnuniyeti her zaman önceliğimizdir.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Hızlı Linkler</h3>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="#">Kampanyalar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>İletişim</h3>
+            <ul>
+                <li>☎ 0555 555 55 55</li>
+                <li>✉ info@market.com</li>
+                <li>📍 İstanbul, Türkiye</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Bizi Takip Et</h3>
+            <div class="social">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+         BU SİTE GAMZE KOÇMAN TARAFINDAN YAPILMIŞTIR WEB SİTESİNDE KAR AMACI GÜTMEMEKTEDİR.
+    </div>
+</footer>
+
+</body>
+</html>

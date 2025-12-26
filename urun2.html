@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="sabit">
+        <div id="header">
+           <ul id="list">
+                <li>Hakkımızda</li>
+                <li>ZİP'de Kariyer</li>
+                <li>Yatırımcı ilişkileri</li>
+                <li>S.S.S</li>
+           </ul>
+        <div id="head2">
+            <a href=" https://www.instagram.com/">
+                <img src="picture/instagram.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/?locale=tr_TR">
+                <img src="picture/facebook.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="picture/youtube.png" alt="">
+            </a>
+            <a href="https://www.tiktok.com/tr-TR/">
+                <img src="picture/tik-tok.png" alt="">
+            </a>
+        </div>
+        </div>
+        <div id="banner">
+            <a href="index.html">
+                <img id="logom" src="picture/logo.png" alt="">
+            </a>
+            
+
+            <ul id="list2">
+                <li>
+                    <a href="aktuel.html" class="img-card">
+                        <img src="picture/urun.png" alt="">
+                        <span class="title">Ürünler</span>
+                    </a>
+                 
+                </li>
+                <li>
+                     <a href="zipozel.html" class="img-card">
+                        <img src="picture/urun2.png" alt="">
+                        <span class="title">ZİP'e Özel</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="urun.html" class="img-card">
+                        <img src="picture/poster.png" alt="">
+                        <span class="title">Afişler</span>
+                    </a>
+                    <ul>
+                        <li><a href="aktuel.html">Aktüel</a></li>
+                        <li><a href="indirimafis.html">İndirim</a></li>
+                        <li><a href="fırsaturun.html">Fırsat Ürünleri</a></li>
+                        <li><a href="evteslim.html">Eve Teslim</a></li>
+                    </ul>
+                </li>
+                <li>
+                      <a href="tarif.html" class="img-card">
+                        <img src="picture/recipe-book.png" alt="">
+                        <span class="title">Tarifler</span>
+                    </a>
+                </li>
+                <li>
+                      <a href="magza.html" class="img-card">
+                        <img src="picture/store.png" alt="">
+                        <span class="title">Mağazalar</span>
+                    </a>
+                 
+                </li>
+                <li>  
+                    <a href="musterif.html" class="img-card">
+                        <img src="picture/team-support.png" alt="">
+                        <span class="title">İletişim</span>
+                    </a>
+                     <ul>
+                        <li><a href="musterif.html">Müşteri İletişim Formu</a></li>
+                        <li><a href="kiralikyer.html">Kiralık Yeriniz mi Var?</a></li>
+                        <li><a href="isbasvuruf.html">İş Başvuru Formu</a></li>
+                        <li><a href="tedarik.html">Tedarikççiniz Olmak istiyorum</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+<div class="container">
+    <!-- SOL TARAF -->
+    <div>
+       <div class="gallery">
+    <img id="mainImage" src="picture/w1.jpg" class="main-img">
+
+    <div class="thumbs">
+        <div class="thumb-box" onclick="changeImage('picture/w2.jpg')">
+            <img src="picture/w2.jpg">
+        </div>
+          <div class="thumb-box" onclick="changeImage('picture/w1.jpg')">
+            <img src="picture/w1.jpg">
+        </div>
+        
+
+
+       
+    </div>
+</div>
+    </div>
+    <!-- SAĞ TARAF -->
+    <div>
+        <h1>KORKMAZ: DELICIOUS DESSERTS, DELIGHTFUL MOMENTS</h1>
+
+        <div class="stars">★★★★☆ (4.0)</div>
+
+        <div class="price">210 TL</div>
+
+        <div class="btns">
+            <button class="btn buy">Şimdi Al</button>
+            <button class="btn add">Sepete Ekle</button>
+        </div>
+        <div class="specs">
+            <div class="spec-title">Ürün Özellikleri</div>
+            <div class="spec-grid">
+                <div class="spec-item">Güç: 850W – 1200W</div>
+                <div class="spec-item">Gerilim: 220–240V</div>
+                <div class="spec-item">Otomatik sıcaklık kontrolü</div>
+                <div class="spec-item">3–5 kademeli sıcaklık kontrolü</div>
+                <div class="spec-item">Aydınlatma: Isınma & hazır olma göstergesi ışıkları</div>
+            </div>
+        </div>
+        <div class="comment-area">
+            <h2>Puan Ver</h2>
+            <div class="rating">
+                <span onclick="rate(1)">★</span>
+                <span onclick="rate(2)">★</span>
+                <span onclick="rate(3)">★</span>
+                <span onclick="rate(4)">★</span>
+                <span onclick="rate(5)">★</span>
+            </div>
+
+            <h2>Yorum Yap</h2>
+            <textarea id="yorumText"></textarea>
+            <button class="btn add" style="margin-top:10px;" onclick="yorumEkle()">Gönder</button>
+
+            <h3>Yorumlar</h3>
+            <div id="yorumList"></div>
+        </div>
+    </div>
+</div>
+<!--footer kısmı-->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Hakkımızda</h3>
+            <p>Marketimiz kaliteli ürünleri uygun fiyatlarla sunar. Müşteri memnuniyeti her zaman önceliğimizdir.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Hızlı Linkler</h3>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="#">Kampanyalar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>İletişim</h3>
+            <ul>
+                <li>☎ 0555 555 55 55</li>
+                <li>✉ info@market.com</li>
+                <li>📍 İstanbul, Türkiye</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Bizi Takip Et</h3>
+            <div class="social">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        BU SİTE GAMZE KOÇMAN TARAFINDAN YAPILMIŞTIR WEB SİTESİNDE KAR AMACI GÜTMEMEKTEDİR.
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>

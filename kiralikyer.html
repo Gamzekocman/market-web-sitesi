@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mağaza Yeri Kiralama | ZİP Market</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="sabit">
+        <div id="header">
+           <ul id="list">
+                <li>Hakkımızda</li>
+                <li>ZİP'de Kariyer</li>
+                <li>Yatırımcı ilişkileri</li>
+                <li>S.S.S</li>
+           </ul>
+        <div id="head2">
+            <a href=" https://www.instagram.com/">
+                <img src="picture/instagram.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/?locale=tr_TR">
+                <img src="picture/facebook.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="picture/youtube.png" alt="">
+            </a>
+            <a href="https://www.tiktok.com/tr-TR/">
+                <img src="picture/tik-tok.png" alt="">
+            </a>
+        </div>
+        </div>
+        <div id="banner">
+            <a href="index.html">
+                <img id="logom" src="picture/logo.png" alt="">
+            </a>
+            <ul id="list2">
+                <li>
+                    <a href="urun.html" class="img-card">
+                        <img src="picture/urun.png" alt="">
+                        <span class="title">Ürünler</span>
+                    </a>
+                </li>
+                <li>
+                     <a href="zipozel.html" class="img-card">
+                        <img src="picture/urun2.png" alt="">
+                        <span class="title">ZİP'e Özel</span>
+                    </a>
+                </li>
+                <li> 
+                     <a href="aktuel.html" class="img-card">
+                        <img src="picture/poster.png" alt="">
+                        <span class="title">Afişler</span>
+                    </a>
+                    <ul>
+                        <li><a href="aktuel.html">Aktüel</a></li>
+                        <li><a href="indirimafis.html">İndirim</a></li>
+                        <li><a href="fırsaturun.html">Fırsat Ürünleri</a></li>
+                        <li><a href="evteslim.html">Eve Teslim</a></li>
+                    </ul>
+                </li>
+                <li>
+                      <a href="tarif.html" class="img-card">
+                        <img src="picture/recipe-book.png" alt="">
+                        <span class="title">Tarifler</span>
+                    </a>
+                </li>
+                <li>
+                      <a href="magza.html" class="img-card">
+                        <img src="picture/store.png" alt="">
+                        <span class="title">Mağazalar</span>
+                    </a>
+                </li>
+                <li>  
+                    <a href="musterif.html" class="img-card">
+                        <img src="picture/team-support.png" alt="">
+                        <span class="title">İletişim</span>
+                    </a>
+                     <ul>
+                        <li><a href="musterif.html">Müşteri İletişim Formu</a></li>
+                        <li><a href="kiralikyer.html">Kiralık Yeriniz mi Var?</a></li>
+                        <li><a href="isbasvuruf.html">İş Başvuru Formu</a></li>
+                        <li><a href="tedarik.html">Tedarikççiniz Olmak istiyorum</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<main class="conainer">
+
+    <section class="info-box">
+        <h2>Bilgilendirme</h2>
+        <p>
+            ZİP Market olarak yeni mağaza lokasyonları için uygun yer tekliflerini
+            değerlendirmekteyiz. Başvurular ön incelemeye alınır ve yalnızca uygun
+            bulunan lokasyonlar için geri dönüş sağlanır.
+        </p>
+    </section>
+
+    <section class="criteria-box">
+        <h2>Tercih Edilen Lokasyon Kriterleri</h2>
+        <ul>
+            <li>Cadde üzeri veya yaya trafiği yüksek bölgeler</li>
+            <li>150 m² – 1000 m² arası alan</li>
+            <li>Zemin veya zemin + bodrum</li>
+            <li>Market açılmasına uygun imar</li>
+            <li>Elektrik, su ve altyapı uygunluğu</li>
+        </ul>
+    </section>
+
+    <section class="form-box">
+        <h2>Kiralık Yer Başvuru Formu</h2>
+
+        <form id="rentForm">
+
+            <div class="form-group">
+                <label>İl *</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>İlçe *</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Açık Adres *</label>
+                <textarea required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Mülk Tipi</label>
+                <select>
+                    <option>Dükkan</option>
+                    <option>Bina</option>
+                    <option>Plaza Altı</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Toplam m² *</label>
+                <input type="number" required>
+            </div>
+
+            <div class="form-group">
+                <label>Talep Edilen Kira Bedeli (₺)</label>
+                <input type="number">
+            </div>
+
+            <div class="form-group">
+                <label>Ad Soyad *</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>Telefon *</label>
+                <input type="tel" required>
+            </div>
+
+            <div class="form-group">
+                <label>E-Posta *</label>
+                <input type="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Mülk Fotoğrafları</label>
+                <input type="file" multiple>
+            </div>
+
+            <div class="kvkk">
+                <input type="checkbox" required>
+                <span>Kişisel verilerimin KVKK kapsamında işlenmesini kabul ediyorum.</span>
+            </div>
+
+            <button type="submit">Başvuruyu Gönder</button>
+
+            <div class="success">
+                Başvurunuz alınmıştır. Uygun bulunması halinde sizinle iletişime geçilecektir.
+            </div>
+
+        </form>
+    </section>
+
+</main>
+
+<!--footer kısmı-->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Hakkımızda</h3>
+            <p>Marketimiz kaliteli ürünleri uygun fiyatlarla sunar. Müşteri memnuniyeti her zaman önceliğimizdir.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Hızlı Linkler</h3>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="#">Kampanyalar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>İletişim</h3>
+            <ul>
+                <li>☎ 0555 555 55 55</li>
+                <li>✉ info@market.com</li>
+                <li>📍 İstanbul, Türkiye</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Bizi Takip Et</h3>
+            <div class="social">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+    BU SİTE GAMZE KOÇMAN TARAFINDAN YAPILMIŞTIR WEB SİTESİNDE KAR AMACI GÜTMEMEKTEDİR.
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZİP Market</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="sabit">
+
+    <div id="header">
+        <ul id="list">
+            <li>Hakkımızda</li>
+            <li>ZİP'de Kariyer</li>
+            <li>Yatırımcı ilişkileri</li>
+            <li>S.S.S</li>
+        </ul>
+
+        <div id="head2">
+            <a href="https://www.instagram.com/"><img src="picture/instagram.png"></a>
+            <a href="https://www.facebook.com/"><img src="picture/facebook.png"></a>
+            <a href="https://www.youtube.com/"><img src="picture/youtube.png"></a>
+            <a href="https://www.tiktok.com/"><img src="picture/tik-tok.png"></a>
+        </div>
+    </div>
+
+    <div id="banner">
+        <a href="index.html">
+            <img id="logom" src="picture/logo.png">
+        </a>
+
+        <ul id="list2">
+
+            <li>
+                <a href="urun.html" class="img-card">
+                    <img src="picture/urun.png">
+                    <span class="title">Ürünler</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="zipozel.html" class="img-card">
+                    <img src="picture/urun2.png">
+                    <span class="title">ZİP'e Özel</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="aktuel.html" class="img-card">
+                    <img src="picture/poster.png">
+                    <span class="title">Afişler</span>
+                </a>
+                <ul>
+                    <li><a href="aktuel.html">Aktüel</a></li>
+                    <li><a href="indirimafis.html">İndirim</a></li>
+                    <li><a href="fırsaturun.html">Fırsat Ürünleri</a></li>
+                    <li><a href="evteslim.html">Eve Teslim</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="tarif.html" class="img-card">
+                    <img src="picture/recipe-book.png">
+                    <span class="title">Tarifler</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="magza.html" class="img-card">
+                    <img src="picture/store.png">
+                    <span class="title">Mağazalar</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="musterif.html" class="img-card">
+                    <img src="picture/team-support.png">
+                    <span class="title">İletişim</span>
+                </a>
+                <ul>
+                    <li><a href="musterif.html">Müşteri İletişim Formu</a></li>
+                    <li><a href="kiralikyer.html">Kiralık Yeriniz mi Var?</a></li>
+                    <li><a href="isbasvuruf.html">İş Başvuru Formu</a></li>
+                    <li><a href="tedarik.html">Tedarikçiniz Olmak İstiyorum</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<!-- BAŞLIK -->
+<div class="header-banner">
+    <div class="banner-text">
+        <h2>ZİP'E ÖZEL MARKALAR</h2>
+        <p>ZİP mağazalarının yüksek kalite standartlarında ürettiği markaları keşfedin.</p>
+    </div>
+</div>
+
+<!-- İÇERİK -->
+<div class="content-container">
+
+    <!-- SİDEBAR -->
+    <div class="sidebar">
+        <h3>Kategori</h3>
+        <ul>
+            <li><label><input type="radio" checked onclick="filterLogos('all')"> Hepsi</label></li>
+            <li><label><input type="radio" onclick="filterLogos('Et_ve_Et_Ürünleri')"> Et Ürünleri</label></li>
+            <li><label><input type="radio" onclick="filterLogos('Süt_ve_Süt_Ürünleri')"> Süt Ürünleri</label></li>
+            <li><label><input type="radio" onclick="filterLogos('İçecekler_ve_Kahveler')"> İçecekler</label></li>
+            <li><label><input type="radio" onclick="filterLogos('Tatlılar_ve_Atıştırmalıklar')"> Atıştırmalık</label></li>
+            <li><label><input type="radio" onclick="filterLogos('Temizlik_ve_Deterjan')"> Temizlik</label></li>
+            <li><label><input type="radio" onclick="filterLogos('Kişisel_Bakım_ve_Kozmetik')"> Kozmetik</label></li>
+            <li><label><input type="radio" onclick="filterLogos('Bakliyat_Un_ve_Makarna')"> Bakliyat</label></li>
+        </ul>
+    </div>
+
+    <!-- ANA ALAN -->
+    <div class="main-content">
+        <div class="brand-logos">
+
+            <!-- ET -->
+            <div class="logo-item Et_ve_Et_Ürünleri"><img src="picture/s1.jpg"><p>Erpiliç</p></div>
+            <div class="logo-item Et_ve_Et_Ürünleri"><img src="picture/s2.jpg"><p>Pınarbaşı</p></div>
+            <div class="logo-item Et_ve_Et_Ürünleri"><img src="picture/s3.jpg"><p>Pınarbaşı</p></div>
+            <div class="logo-item Et_ve_Et_Ürünleri"><img src="picture/s4.jpg"><p>Pınarbaşı</p></div>
+
+            <!-- SÜT -->
+            <div class="logo-item Süt_ve_Süt_Ürünleri"><img src="picture/y1.jpg"><p>Obaeli</p></div>
+            <div class="logo-item Süt_ve_Süt_Ürünleri"><img src="picture/y2.jpg"><p>Obaeli</p></div>
+            <div class="logo-item Süt_ve_Süt_Ürünleri"><img src="picture/y3.jpg"><p>Obaeli</p></div>
+            <div class="logo-item Süt_ve_Süt_Ürünleri"><img src="picture/y4.jpg"><p>Obaeli</p></div>
+
+            <!-- BAKLİYAT -->
+            <div class="logo-item Bakliyat_Un_ve_Makarna"><img src="picture/m1.jpg"><p>Şenocak</p></div>
+            <div class="logo-item Bakliyat_Un_ve_Makarna"><img src="picture/m2.jpg"><p>Şenocak</p></div>
+            <div class="logo-item Bakliyat_Un_ve_Makarna"><img src="picture/m3.jpg"><p>Şenocak</p></div>
+            <div class="logo-item Bakliyat_Un_ve_Makarna"><img src="picture/m4.jpg"><p>Şenocak</p></div>
+
+            <!-- TEMİZLİK -->
+            <div class="logo-item Temizlik_ve_Deterjan"><img src="picture/t1.jpg"><p>Canan</p></div>
+            <div class="logo-item Temizlik_ve_Deterjan"><img src="picture/t2.jpg"><p>Canan</p></div>
+            <div class="logo-item Temizlik_ve_Deterjan"><img src="picture/t3.jpg"><p>Canan</p></div>
+            <div class="logo-item Temizlik_ve_Deterjan"><img src="picture/t4.jpg"><p>Canan</p></div>
+            <div class="logo-item Temizlik_ve_Deterjan"><img src="picture/t5.jpg"><p>Canan</p></div>
+            <div class="logo-item Temizlik_ve_Deterjan"><img src="picture/t6.jpg"><p>Canan</p></div>
+
+            <!-- İÇECEK -->
+            <div class="logo-item İçecekler_ve_Kahveler"><img src="picture/i1.jpg"><p>Ece</p></div>
+            <div class="logo-item İçecekler_ve_Kahveler"><img src="picture/i2.jpg"><p>Ece</p></div>
+            <div class="logo-item İçecekler_ve_Kahveler"><img src="picture/i3.jpg"><p>Ece</p></div>
+            <div class="logo-item İçecekler_ve_Kahveler"><img src="picture/i4.jpg"><p>Ece</p></div>
+
+            <!-- ATISTIRMALIK -->
+            <div class="logo-item Tatlılar_ve_Atıştırmalıklar"><img src="picture/a1.jpg"><p>KitKat</p></div>
+            <div class="logo-item Tatlılar_ve_Atıştırmalıklar"><img src="picture/a2.jpg"><p>KitKat</p></div>
+            <div class="logo-item Tatlılar_ve_Atıştırmalıklar"><img src="picture/a3.jpg"><p>KitKat</p></div>
+
+            <!-- KOZMETİK -->
+            <div class="logo-item Kişisel_Bakım_ve_Kozmetik"><img src="picture/k1.jpg"><p>Hijen</p></div>
+            <div class="logo-item Kişisel_Bakım_ve_Kozmetik"><img src="picture/k2.jpg"><p>Hijen</p></div>
+            <div class="logo-item Kişisel_Bakım_ve_Kozmetik"><img src="picture/k3.jpg"><p>Hijen</p></div>
+
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Hakkımızda</h3>
+            <p>Marketimiz kaliteli ürünleri uygun fiyatlarla sunar.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Hızlı Linkler</h3>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Ürünler</a></li>
+                <li><a href="#">Kampanyalar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>İletişim</h3>
+            <ul>
+                <li>☎ 0555 555 55 55</li>
+                <li>✉ info@market.com</li>
+                <li>📍 İstanbul</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Bizi Takip Et</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+         BU SİTE GAMZE KOÇMAN TARAFINDAN YAPILMIŞTIR WEB SİTESİNDE KAR AMACI GÜTMEMEKTEDİR.
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
